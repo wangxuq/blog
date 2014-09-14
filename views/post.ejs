@@ -1,0 +1,17 @@
+﻿<%include header.ejs%>
+	<form method="post">
+		<body>
+			<label>标题</label><br/>
+			<input  type="text" name="title" id="title">
+			<p>
+			<label>标签(最多三个)</label><br/>
+			<input type="text" name="tag1" /> <input type="text" name="tag2" /> <input type="text" name="tag3" />
+			<p>
+			<label>内容</label><br/>
+			<textArea type="text" name="post" id="post" rows="5" cols="100"></textArea>
+			<p>
+				
+			<button type="submit">发表</button>
+		</body>
+	</form>
+<%include footer.ejs%>

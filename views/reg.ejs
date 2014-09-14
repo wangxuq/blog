@@ -1,0 +1,26 @@
+﻿<% include header.ejs%>
+
+<form method="post" align="center">
+	<h3>用户注册<h3>
+	<div>
+		<div>
+			<label for="name">用户名</label>
+			<input type="text" name="name" id="name"/>
+		</div>
+		<div>
+			<label for="password">密码</label>
+			<input type="password" name="password" id="password"/>
+		</div>
+		<div>
+			<label for="password-repeat">确认密码</label>
+			<input type="password" name="password-repeat" id="password-repeat"/>
+		</div>
+		<div>
+			<label for="email">邮箱</label>
+			<input type="text" name="email" id="email"/>
+		</div>
+		<button type="submit" >注册</button>
+	</div>
+</form>
+ 
+<% include footer.ejs%>
